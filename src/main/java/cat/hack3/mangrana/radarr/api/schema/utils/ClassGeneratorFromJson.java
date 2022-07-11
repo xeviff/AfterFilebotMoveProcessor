@@ -8,6 +8,10 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
+/**
+ * @deprecated Once the generated classes for client schema are located in the project, this utility is not needed anymore
+ */
+@Deprecated
 public class ClassGeneratorFromJson {
 
     public static void main(String[] args) throws IOException {
