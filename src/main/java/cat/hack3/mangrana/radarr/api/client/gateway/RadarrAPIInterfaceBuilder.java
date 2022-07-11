@@ -6,10 +6,12 @@ import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.UriBuilder;
 
+import static cat.hack3.mangrana.utils.Output.log;
+
 public class RadarrAPIInterfaceBuilder {
 
-    public RadarrAPIInterface buildProxy(String host) {
-        System.out.println("preparing Radarr API call at host "+ host + " ...");
+    public static RadarrAPIInterface buildProxy(String host) {
+        log("preparing Radarr API call at host "+ host + " ...");
         UriBuilder fullPath = UriBuilder.fromPath(host);
         ResteasyClient client = (ResteasyClient) ClientBuilder.newClient();
         ResteasyWebTarget target = client.target(fullPath);

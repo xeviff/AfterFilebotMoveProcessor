@@ -6,6 +6,9 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
+/**
+ * For more information, visit: <a href="https://radarr.video/docs/api/#/Movie/get_api_v3_movie">...</a>
+ */
 @Path("/api/v3")
 public interface RadarrAPIInterface {
 
