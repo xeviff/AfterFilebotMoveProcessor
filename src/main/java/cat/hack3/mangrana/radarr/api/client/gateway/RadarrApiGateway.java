@@ -2,6 +2,7 @@ package cat.hack3.mangrana.radarr.api.client.gateway;
 
 import cat.hack3.mangrana.config.ConfigFileLoader;
 import cat.hack3.mangrana.radarr.api.schema.MovieResource;
+import org.apache.commons.lang.NotImplementedException;
 
 import java.util.List;
 
@@ -21,6 +22,10 @@ public class RadarrApiGateway {
 
     public void updateMovie(MovieResource movie){
         proxy.updateMovie(movie, movie.getId(), apiKey);
+    }
+
+    public void addNonExistentMovie(MovieResource movie){
+        throw new NotImplementedException();
     }
 
 }
