@@ -1,4 +1,4 @@
-package cat.hack3.mangrana.utils;
+package cat.hack3.mangrana.radarr.api.schema.utils;
 
 import com.sun.codemodel.JCodeModel;
 import org.jsonschema2pojo.*;
@@ -13,7 +13,7 @@ public class ClassGeneratorFromJson {
     public static void main(String[] args) throws IOException {
         ClassGeneratorFromJson me = new ClassGeneratorFromJson();
         me.convertJsonToJavaClass(
-                new URL("https://mangrana-radarr.hack3.cat/api/v3/movie?tmdbId=651571&apikey=xxxxxxx"),
+                new URL("https://your.domain.is/api/v3/movie?tmdbId=651571&apikey=xxxxxxx"),
                 new File("."),
                 "cat.hack3.mangrana.radarr.api.schema",
                 "MovieResource");
