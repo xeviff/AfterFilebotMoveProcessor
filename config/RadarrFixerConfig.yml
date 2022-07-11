@@ -1,0 +1,9 @@
+radarr_api_key: 1your2Radarr3API4KEY5hash6value7
+radarr_api_host: https://your.host.is
+current_possible_paths: |
+  radarr_uploads
+  radarr_lists
+logs_files: |
+  /filebot_logs/lists_movies_movements.log
+  /filebot_logs/uploads_movies_movements.log
+  /filebot_logs/_Filebot_movies_movements.log

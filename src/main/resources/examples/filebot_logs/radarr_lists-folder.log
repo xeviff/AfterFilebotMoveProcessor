@@ -1,0 +1,9 @@
+Rename movies using [TheMovieDB]
+Auto-detect movie from context [/pelis/radarr_lists/F9 (2021)/Fast & Furious 9 (2021)[V.Cine][BDRip 720p AVC ES DD+ 5.1 - EN DD 5.1 Subs][HDO].mkv]
+Auto-detect movie from context [/pelis/radarr_lists/Starship Troopers- Invasion (2012)/Starship Troopers - Invasion (2012) BluRay 1080p DTS-HD MA 5.1 HEVC-LMain.mkv]
+Auto-detect movie from context [/pelis/radarr_lists/Starship Troopers- Traitor of Mars (2017)/Starship Troopers Traidores de Marte (2017) BluRay 1080p DD 5.1 x264-LMain.mkv]
+[MOVE] from [/pelis/radarr_lists/Starship Troopers- Traitor of Mars (2017)/Starship Troopers Traidores de Marte (2017) BluRay 1080p DD 5.1 x264-LMain.mkv] to [/pelis/Pelis_anime/otrosCodecs/1080-HD/Starship Troopers - Traitor of Mars (2017)/Starship Troopers - Traidores de Marte (2017) [AVC HD BDRemux][8bits 21.9Mbps 24fps] [Es Dolby 5.1] {tmdb-460790}.mkv]
+[OVERRIDE] Delete [/pelis/Pelis_estrenos/otrosCodecs/720p/F9 (2021)/Fast & Furious 9 (2021) [AVC 720p][8bits 7.9Mbps 24fps] [Es Dolby 5.1] {tmdb-385128}.mkv]
+[MOVE] from [/pelis/radarr_lists/F9 (2021)/Fast & Furious 9 (2021)[V.Cine][BDRip 720p AVC ES DD+ 5.1 - EN DD 5.1 Subs][HDO].mkv] to [/pelis/Pelis_estrenos/otrosCodecs/720p/F9 (2021)/Fast & Furious 9 (2021) [AVC 720p][8bits 7.9Mbps 24fps] [Es Dolby 5.1] {tmdb-385128}.mkv]
+[MOVE] from [/pelis/radarr_lists/Starship Troopers- Invasion (2012)/Starship Troopers - Invasion (2012) BluRay 1080p DTS-HD MA 5.1 HEVC-LMain.mkv] to [/pelis/Pelis_anime/x265/1080-HD/Starship Troopers - Invasion (2012)/Starship Troopers - Invasión (2012) [HEVC HD BDRemux][10bits 15.8Mbps 24fps] [Es DTS-MA 5.1] {tmdb-114478}.mkv]
+Processed 3 files

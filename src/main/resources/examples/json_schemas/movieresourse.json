@@ -1,0 +1,165 @@
+[
+  {
+    "title": "Breach",
+    "originalTitle": "Breach",
+    "originalLanguage": {
+      "id": 1,
+      "name": "English"
+    },
+    "alternateTitles": [
+      {
+        "sourceType": "tmdb",
+        "movieId": 9084,
+        "title": "Anti-Life",
+        "sourceId": 0,
+        "votes": 0,
+        "voteCount": 0,
+        "language": {
+          "id": 1,
+          "name": "English"
+        },
+        "id": 46070
+      },
+      {
+        "sourceType": "tmdb",
+        "movieId": 9084,
+        "title": "İhlal: Yaşam Karşıtı",
+        "sourceId": 0,
+        "votes": 0,
+        "voteCount": 0,
+        "language": {
+          "id": 17,
+          "name": "Turkish"
+        },
+        "id": 46071
+      },
+      {
+        "sourceType": "tmdb",
+        "movieId": 9084,
+        "title": "İhlal",
+        "sourceId": 0,
+        "votes": 0,
+        "voteCount": 0,
+        "language": {
+          "id": 17,
+          "name": "Turkish"
+        },
+        "id": 46072
+      }
+    ],
+    "secondaryYearSourceId": 0,
+    "sortTitle": "breach",
+    "sizeOnDisk": 12666249249,
+    "status": "released",
+    "overview": "A hardened mechanic must stay awake and maintain an interstellar ark fleeing the dying planet Earth with a few thousand lucky souls on board... the last of humanity. Unfortunately, humans are not the only passengers. A shapeshifting alien creature has taken residence, its only goal is to kill as many people as possible. The crew must think quickly to stop this menace before it destroys mankind.",
+    "inCinemas": "2020-12-18T00:00:00Z",
+    "physicalRelease": "2021-02-15T00:00:00Z",
+    "digitalRelease": "2021-02-12T00:00:00Z",
+    "images": [
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/9084/poster.jpg?lastWrite=637922174282368544",
+        "remoteUrl": "https://image.tmdb.org/t/p/original/13B6onhL6FzSN2KaNeQeMML05pS.jpg"
+      },
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/9084/fanart.jpg?lastWrite=637922174284188565",
+        "remoteUrl": "https://image.tmdb.org/t/p/original/nz8xWrTKZzA5A7FgxaM4kfAoO1W.jpg"
+      }
+    ],
+    "website": "",
+    "year": 2020,
+    "hasFile": true,
+    "youTubeTrailerId": "AG7ml1G2lI4",
+    "studio": "308 Enterprises",
+    "path": "/movies/Pelis/otrosCodecs/1080-HD/Breach (2020)",
+    "qualityProfileId": 6,
+    "monitored": true,
+    "minimumAvailability": "announced",
+    "isAvailable": true,
+    "folderName": "/movies/Pelis/otrosCodecs/1080-HD/Breach (2020)",
+    "runtime": 92,
+    "cleanTitle": "breach",
+    "imdbId": "tt9820556",
+    "tmdbId": 651571,
+    "titleSlug": "651571",
+    "certification": "R",
+    "genres": [
+      "Science Fiction",
+      "Action"
+    ],
+    "tags": [],
+    "added": "2022-06-30T20:23:46Z",
+    "ratings": {
+      "imdb": {
+        "votes": 17926,
+        "value": 3,
+        "type": "user"
+      },
+      "tmdb": {
+        "votes": 519,
+        "value": 4.3,
+        "type": "user"
+      },
+      "rottenTomatoes": {
+        "votes": 0,
+        "value": 20,
+        "type": "user"
+      }
+    },
+    "movieFile": {
+      "movieId": 9084,
+      "relativePath": "Breach (2020) [BDRip 1080p AVC ES DTS-DD 5.1 ENG DD 5.1 Subs][HDO].mkv",
+      "path": "/movies/Pelis/otrosCodecs/1080-HD/Breach (2020)/Breach (2020) [BDRip 1080p AVC ES DTS-DD 5.1 ENG DD 5.1 Subs][HDO].mkv",
+      "size": 12666249249,
+      "dateAdded": "2022-07-01T00:48:52Z",
+      "indexerFlags": 0,
+      "quality": {
+        "quality": {
+          "id": 7,
+          "name": "Bluray-1080p",
+          "source": "bluray",
+          "resolution": 1080,
+          "modifier": "none"
+        },
+        "revision": {
+          "version": 1,
+          "real": 0,
+          "isRepack": false
+        }
+      },
+      "mediaInfo": {
+        "audioBitrate": 1536000,
+        "audioChannels": 5.1,
+        "audioCodec": "DTS",
+        "audioLanguages": "spa/spa/eng",
+        "audioStreamCount": 3,
+        "videoBitDepth": 8,
+        "videoBitrate": 0,
+        "videoCodec": "x264",
+        "videoDynamicRangeType": "",
+        "videoFps": 23.976,
+        "resolution": "1920x800",
+        "runTime": "1:33:01",
+        "scanType": "Progressive",
+        "subtitles": "spa/spa/eng"
+      },
+      "originalFilePath": "Breach (2020) [BDRip 1080p AVC ES DTS-DD 5.1 ENG DD 5.1 Subs][HDO].mkv",
+      "qualityCutoffNotMet": false,
+      "languages": [
+        {
+          "id": 3,
+          "name": "Spanish"
+        },
+        {
+          "id": 1,
+          "name": "English"
+        }
+      ],
+      "releaseGroup": "HDO",
+      "edition": "",
+      "id": 11674
+    },
+    "id": 9084
+  }
+]
