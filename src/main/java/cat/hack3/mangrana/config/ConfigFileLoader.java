@@ -11,7 +11,8 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static cat.hack3.mangrana.config.EnvironmentChecker.isLocal;
+import static cat.hack3.mangrana.config.LocalEnvironmentManager.LOCAL_PROJECT_PATH;
+import static cat.hack3.mangrana.config.LocalEnvironmentManager.isLocal;
 import static cat.hack3.mangrana.utils.Output.log;
 
 public class ConfigFileLoader {
@@ -54,9 +55,8 @@ public class ConfigFileLoader {
     }
 
     private String getConfigFolder(){
-        return !isLocal()
-                ? CONFIG_FOLDER
-                : "/your/local/projects/path/AfterFilebotMoveProcessor/config";
+        return (isLocal() ? LOCAL_PROJECT_PATH : "")
+                + CONFIG_FOLDER;
     }
 
     private List<LogsFilesInfo> generateLogsFilesInfo(List<String> logsFilesConfig) {
