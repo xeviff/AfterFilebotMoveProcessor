@@ -13,7 +13,7 @@ public class RadarrApiGateway {
 
     public RadarrApiGateway(ConfigFileLoader config) {
         apiKey = config.getApiKey();
-        proxy = RadarrAPIInterfaceBuilder.buildProxy(config.getHost());
+        proxy = RadarrAPIInterfaceSingleton.getInterface(config.getHost());
     }
 
     public List<MovieResource> movieLookupByTMDBid (int tmdbId) {
