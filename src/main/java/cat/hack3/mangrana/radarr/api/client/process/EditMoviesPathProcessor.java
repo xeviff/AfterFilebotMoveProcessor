@@ -46,7 +46,6 @@ public class EditMoviesPathProcessor extends MoviesProcessor {
         log("from " + oldFolder);
         log("to " + newFolder);
         log(":)");
-
     }
 
     private String getRightFolderFromFullPath(String moviePath) {

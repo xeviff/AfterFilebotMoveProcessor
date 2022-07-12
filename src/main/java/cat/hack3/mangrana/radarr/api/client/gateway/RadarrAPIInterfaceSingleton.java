@@ -5,7 +5,6 @@ import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.UriBuilder;
-import java.nio.channels.AlreadyConnectedException;
 import java.util.Objects;
 
 import static cat.hack3.mangrana.utils.Output.log;
@@ -17,9 +16,6 @@ public class RadarrAPIInterfaceSingleton {
 
     private static void init (String host) {
         log("Initializing Proxy for host "+ host + " ...");
-        if (Objects.nonNull(apiInterface))
-            throw new AlreadyConnectedException();
-
         UriBuilder fullPath = UriBuilder.fromPath(host);
         ResteasyClient client = (ResteasyClient) ClientBuilder.newClient();
         ResteasyWebTarget target = client.target(fullPath);

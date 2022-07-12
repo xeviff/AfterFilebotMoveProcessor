@@ -6,7 +6,7 @@ public class LocalEnvironmentManager {
 
     private LocalEnvironmentManager(){}
 
-    public static final String LOCAL_PROJECT_PATH = "/Volumes/cloud/java projects/AfterFilebotMoveProcessor";
+    public static final String LOCAL_PROJECT_PATH = "/Volumes/java projects/AfterFilebotMoveProcessor";
 
     public static boolean isLocal () {
         String envVar = System.getenv("ENV");
