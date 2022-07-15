@@ -6,5 +6,5 @@ services:
     image: radarr-fixer-after-filebot:latest
     build: .
     volumes:
-      - /volume1/homes/your_user/logs/filebot:/filebot_logs
+      - ${USER_HOME}/logs/filebot:/filebot_logs
       - ./config:/config
