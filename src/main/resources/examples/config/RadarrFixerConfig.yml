@@ -5,6 +5,6 @@ current_possible_paths: |
   radarr_lists
   _Filebot
 logs_files: |
-  /filebot_logs/lists_movies_movements.log:edit
   /filebot_logs/uploads_movies_movements.log:edit
+  /filebot_logs/lists_movies_movements.log:edit
   /filebot_logs/_Filebot_movies_movements.log:add

@@ -40,6 +40,7 @@ public class EditMoviesPathProcessor extends MoviesProcessor {
         String newFolder = getRightFolderFromFullPath(moviePath);
         radarrMovie.setFolderName(newFolder);
         radarrMovie.setPath(newFolder);
+        radarrMovie.setMonitored(false);
         radarrApiGateway.updateMovie(radarrMovie);
 
         log("Updated Radarr path for: " + radarrMovie.getTitle());
